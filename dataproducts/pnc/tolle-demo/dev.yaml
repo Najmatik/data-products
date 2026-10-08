@@ -1,0 +1,17 @@
+apiVersion: platform.bronze-deer.de/v1alpha1
+kind: DataProduct
+metadata:
+  name: tolle-demo-dev
+  namespace: dp-pnc-tolle-demo
+spec:
+  division: PNC
+  env: DEV
+  id: 9
+  maintainers:
+  - JAN
+  name: tolle-demo
+  viewers:
+  - JAN
+  warehouse:
+    autoscale: true
+    size: XSMALL
