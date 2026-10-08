@@ -1,0 +1,19 @@
+apiVersion: platform.bronze-deer.de/v1alpha1
+kind: DataProduct
+metadata:
+  name: enablement-inte
+  namespace: dp-health-enablement
+spec:
+  contributors:
+  - JAN
+  division: HEALTH
+  env: INTE
+  id: 8
+  maintainers:
+  - JAN
+  name: enablement
+  viewers:
+  - JAN
+  warehouse:
+    autoscale: false
+    size: XSMALL
