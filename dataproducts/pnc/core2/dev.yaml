@@ -1,0 +1,19 @@
+apiVersion: platform.bronze-deer.de/v1alpha1
+kind: DataProduct
+metadata:
+  name: core2-dev
+  namespace: dp-pnc-core2
+spec:
+  contributors:
+  - JAN
+  division: PNC
+  env: DEV
+  id: 2
+  maintainers:
+  - JAN
+  name: core2
+  viewers:
+  - JAN
+  warehouse:
+    autoscale: false
+    size: XSMALL
