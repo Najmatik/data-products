@@ -1,0 +1,17 @@
+apiVersion: platform.bronze-deer.de/v1alpha1
+kind: DataProduct
+metadata:
+  name: core3-dev
+  namespace: dp-pnc-core3
+spec:
+  division: PNC
+  env: DEV
+  id: 3
+  maintainers:
+  - JAN
+  name: core3
+  viewers:
+  - JAN
+  warehouse:
+    autoscale: false
+    size: XSMALL
