@@ -1,0 +1,19 @@
+apiVersion: platform.bronze-deer.de/v1alpha1
+kind: DataProduct
+metadata:
+  name: sdpcoreinit-dev
+  namespace: dp-pnc-sdpcoreinit
+spec:
+  contributors:
+  - JAN
+  division: PNC
+  env: DEV
+  id: 2
+  maintainers:
+  - JAN
+  name: sdpcoreinit
+  viewers:
+  - JAN
+  warehouse:
+    autoscale: false
+    size: XSMALL
